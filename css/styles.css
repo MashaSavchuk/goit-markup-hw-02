@@ -23,22 +23,28 @@ body {
     color: #434455;
     background-color: var(--white);
 }
+
 a {
     color: currentColor;
     text-decoration: none;
 }
+
 button {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
 }
-ul, ol {
+
+ul,
+ol {
     list-style-type: none;
 
 }
+
 address {
     font-style: normal;
 }
+
 /*  #endregion */
 
 /*  #region Common styles*/
@@ -50,6 +56,7 @@ address {
     text-align: center;
     text-transform: capitalize;
 }
+
 .visually-hidden {
     /* position: absolute;
     width: 1px;
@@ -63,6 +70,7 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 /*  #endregion */
 
 /* #region Logo */
@@ -75,12 +83,14 @@ address {
     text-transform: uppercase;
     /* color: var(--iris); */
     color: #4d5ae5;
-    
+
 }
+
 .logo-accent {
     /* color: var(--primary-cl); */
     color: #2e2f42;
 }
+
 /*  #endregion */
 
 /* #region Contacts */
@@ -95,12 +105,15 @@ address {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
 .contacts-link:hover {
     color: #404bbf;
 }
+
 .contacts-link:focus {
     color: #404bbf;
 }
+
 /*  #endregion */
 
 /*  #region Header */
@@ -122,23 +135,28 @@ address {
     letter-spacing: 0.02em;
     color: var(--primary-cl);
 }
+
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .nav-link:hover {
     color: #404bbf;
 }
+
 .nav-link:focus {
     color: #404bbf;
 }
+
 /*  #endregion */
 
 /*  #region Hero */
 .hero {
     background-color: var(--primary-cl);
 }
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -146,6 +164,7 @@ address {
     text-align: center;
     color: var(--white);
 }
+
 .btn {
     border-radius: 4px;
     border: 1px solid transparent;
@@ -159,12 +178,15 @@ address {
     letter-spacing: 0.04em;
     color: var(--white);
 }
+
 .btn:hover {
     background-color: #404BBF;
 }
+
 .btn:focus {
     background-color: #404BBF;
 }
+
 /*  #endregion */
 
 /*  #region Features */
@@ -181,31 +203,33 @@ address {
     letter-spacing: 0.02em;
     color: var(--primary-cl);
 }
+
 .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
 /*  #endregion */
 
 /*  #region Our Team */
 .team {
     background-color: var(--cloud);
 }
+
 .team-list {}
 
 .team-item {
-    border-radius: 0 0 4px 4px;
+    /* border-radius: 0 0 4px 4px; */
     padding: 0px 0px 32px 0px;
-    /* width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
     background: var(--white);
 }
+
 .team-img {
     /* width: 264px;
     height: 260px; */
 }
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -213,23 +237,24 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--slate);
 }
+
 /*  #endregion */
 
+
+
 /*  #region  Our Portfolio */
-.portfolio {
-}
-.portfolio-list {}
+
+
 
 .portfolio-item {
     border: 1px solid var(--cornflower);
-    /* width: 360px;
-    height: 420px; */
 }
 .portfolio-img {}
 
@@ -239,17 +264,20 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
 /*  #endregion */
 
 /*  #region Footer */
 .footer {
     background-color: var(--primary-cl);
 }
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
