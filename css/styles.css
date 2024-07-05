@@ -163,7 +163,6 @@ address {
 
 .btn {
     border: 1px solid transparent;
-    /* padding: 16px 32px; */
     background-color: var(--iris);
     font-weight: 500;
     line-height: 1.5;
@@ -212,7 +211,6 @@ address {
 .team-list {}
 
 .team-item {
-    padding: 0px 0px 32px 0px;
     background: var(--white);
 }
 
